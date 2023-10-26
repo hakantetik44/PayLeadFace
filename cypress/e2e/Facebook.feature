@@ -8,6 +8,9 @@ Feature: Connexion à Facebook
 
   Scenario: Connexion échouée sur Facebook (Données incorrectes)
     Given Aller sur la page Facebook
-    When Entre une adresse e-mail incorrecte OU un mot de passe incorrect
-    Then Cliquer sur le bouton Se connecter
+    When Entre une adresse e-mail incorrecte
+    Then Vérifier le message d'erreur.
+    And Saisir un mot de passe incorrect
+    And Cliquer sur le bouton Se connecter
+    And Vérifier le message d'erreur.
     And Vérifier l'échec de la connexion

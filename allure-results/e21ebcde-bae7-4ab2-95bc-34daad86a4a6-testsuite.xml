@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1698270680772' stop='1698270706953'>
+    <name>Connexion à Facebook</name>
+    <title>Connexion à Facebook</title>
+    <test-cases>
+        <test-case start='1698270680772' status='failed' stop='1698270706942'>
+            <name>Connexion réussie à Facebook</name>
+            <title>Connexion réussie à Facebook</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 20000ms: Expected to find element: `.header-title`, but never found it.</message>
+                <stack-trace>AssertionError: Timed out retrying after 20000ms: Expected to find element: `.header-title`, but never found it.
+                    at Context.eval (https://www.facebook.com/__cypress/tests?p=cypress/e2e/Facebook.feature:9681:35)
+                    at Registry.runStepDefininition (https://www.facebook.com/__cypress/tests?p=cypress/e2e/Facebook.feature:8336:48)
+                    at Context.eval (https://www.facebook.com/__cypress/tests?p=cypress/e2e/Facebook.feature:9119:48)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
